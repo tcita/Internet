@@ -2,7 +2,7 @@
 1.	install node.js&&npm
 2.	安裝ws:     npm install ws
 
-3.	進入資料夾(chat_room),在此路徑下安裝 electron：npm install --save--dev electron
+3.	進入資料夾(chat_room/Internet),在此路徑下安裝 electron：npm install --save--dev electron
 
 使用:
 1.	點擊server.bat
