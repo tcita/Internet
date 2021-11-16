@@ -3,7 +3,7 @@
 2.	安裝ws:     npm install ws
 
 3.	進入資料夾(chat_room/Internet),在此路徑下
-npm init
+npm init -y
 npm install --save--dev electron
 
 4. 增加所需的程式&&檔案
