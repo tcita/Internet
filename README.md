@@ -6,7 +6,7 @@
 npm init
 npm install --save--dev electron
 
-4. 增加所需的程式
+4. 增加所需的程式&&檔案
 
 使用:
 1.	點擊server.bat
