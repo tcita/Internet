@@ -29,7 +29,7 @@ server.on('connection', function connection(ws, req) {
     // broadcast msg to all clients
     server.clients.forEach(function each(client) {
       if (client.readyState === WebSocket.OPEN) {
-        client.send( clientName + " -> " + message);
+        client.send( clientName + "  says -> " + message);
       }
     });
 

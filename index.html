@@ -4,9 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>WebSocket Chat</title>
+	
 </head>
 
 <body>
+	<body style="background-color:#D0F79D;">
+
+
 	<script type="text/javascript">
 		var socket;
 		if (!window.WebSocket) {
@@ -41,8 +45,11 @@
 			}
 		}
 	</script>
+
+	
+
 	<form onsubmit="return false;">
-		<h3>WebSocket ChatRoom：</h3>
+		<h4>WebSocket ChatRoom：</h4>
 		<textarea id="responseText" style="width: 400px; height: 300px;"></textarea>
 		<br>
 		<input type="text" name="message" style="width: 300px" value="">
